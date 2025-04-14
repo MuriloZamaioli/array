@@ -13,8 +13,10 @@ clientesNome.push("Gustagol")
 clientesNome.push("Murilo")
 console.dir(clientesNome)
 
-document.getElementById("conteudo").innerHTML += clientesNome[0]+" - "
-document.getElementById("conteudo").innerHTML += clientesNome[1]+" - "
-document.getElementById("conteudo").innerHTML += clientesNome[2]+" - "
-document.getElementById("conteudo").innerHTML += clientesNome[3]+" - "
-document.getElementById("conteudo").innerHTML += clientesNome[4]
+document.getElementById("conteudo").innerHTML ="<ul>"
+document.getElementById("conteudo").innerHTML +="<li>"+ clientesNome[0]+"</li>"
+document.getElementById("conteudo").innerHTML +="<li>"+ clientesNome[1]+"</li>"
+document.getElementById("conteudo").innerHTML +="<li>"+ clientesNome[2]+"</li>"
+document.getElementById("conteudo").innerHTML +="<li>"+ clientesNome[3]+"</li>"
+document.getElementById("conteudo").innerHTML +="<li>"+ clientesNome[4]+"</li>"
+document.getElementById("conteudo").innerHTML += "</ul>"
